@@ -57,4 +57,4 @@ This script is for educational and informational purposes only. It is not financ
 
 ## License
 
-[MIT License](LICENSE) (You might want to add a LICENSE file if not already present)
+[MIT License](LICENSE) 
