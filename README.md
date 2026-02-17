@@ -4,7 +4,7 @@ This repository contains a Python script designed to fetch historical Ethereum (
 
 ## Project Structure
 
-- `Bitcoin study.py`: The main Python script that performs the data fetching, analysis, and report generation.
+- `Eth_study.py`: The main Python script that performs the data fetching, analysis, and report generation.
 - `report.txt`: The generated report containing the analysis results.
 
 ## Features
@@ -30,7 +30,7 @@ This repository contains a Python script designed to fetch historical Ethereum (
     ```
 3.  **Run the analysis script:**
     ```bash
-    python "Bitcoin study.py"
+    python "Eth_study.py"
     ```
     The script will fetch data, perform analysis, and generate `report.txt` in the same directory.
 
