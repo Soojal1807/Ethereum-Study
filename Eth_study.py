@@ -8,9 +8,6 @@ def get_ethereum_data(end_date_str='2026-02-17'):
     Fetches historical Ethereum data (ETH-USD) up to the specified end date.
     """
     end_date = datetime.strptime(end_date_str, '%Y-%m-%d')
-    # yfinance typically fetches data up to the current day.
-    # We'll fetch up to today and then filter if the user's end_date was in the past.
-    # For a future date like 2026-02-17, it will fetch up to the latest available data.
     eth_data = yf.download("ETH-USD", start="2015-08-07", end=end_date) # Start from ETH launch date
     return eth_data
 
